@@ -16,6 +16,9 @@ dependencies:
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
+  '@matheusmendesreis/eslint-config':
+    specifier: ^1.0.0
+    version: 1.0.0
   '@types/node':
     specifier: ^20
     version: 20.11.16
@@ -29,7 +32,7 @@ devDependencies:
     specifier: ^10.0.1
     version: 10.4.17(postcss@8.4.33)
   eslint:
-    specifier: ^8
+    specifier: ^8.56.0
     version: 8.56.0
   eslint-config-next:
     specifier: 14.1.0
@@ -160,6 +163,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
+    dev: true
+
+  /@matheusmendesreis/eslint-config@1.0.0:
+    resolution: {integrity: sha512-EajHcUk7Bex45bWmb27V4OuiiD1c1yZODhZCCucwIp1CxCxumkLgXejiM4qFEJ7FbMUSj2kgLyGKUmkSKwcWFg==}
     dev: true
 
   /@next/env@14.1.0:
